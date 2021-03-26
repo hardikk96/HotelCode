@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 export class Services extends Component {
   render() {
     return (
@@ -17,10 +16,17 @@ export class Services extends Component {
               ? this.props.data.map((d, i) => (
                   <div key={`${d.name}-${i}`} className="col-md-4">
                     <div>
-                      <div className="maincontainer1">
-                        <div className="card-body">
+                      <div>
+                        <div className="card-figure">
                           <div className="thefront">
                             {" "}
+                            <img
+                              className="card-image"
+                              src={d.image}
+                              alt=""
+                              width={d.width}
+                              height={d.height}
+                            ></img>
                             <i className={d.icon}></i>
                             <div className="service-desc">
                               <h3>{d.name}</h3>
@@ -29,9 +35,9 @@ export class Services extends Component {
                           </div>
                           <div className="theback">
                             {" "}
-                            <i className={d.icon}></i>
+                            <i className={d.iconback}></i>
                             <div className="service-desc">
-                              <h3>{d.name}</h3>
+                              <h3>{d.nameback}</h3>
                               <p>{d.textback}</p>
                             </div>
                           </div>

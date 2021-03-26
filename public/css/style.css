@@ -204,25 +204,15 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-.intro {
-  display: table;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
+
 .intro .overlay {
+  height: 100%;
   background: rgba(0, 0, 0, 0.2);
 }
-.intro h1 {
+/* .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 84px !important;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -232,6 +222,24 @@ a:focus,
   font-weight: 800;
   color: #5ca9fb;
 }
+ */
+/* My Code */
+
+.intro h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 54px;
+  text-shadow: 1px 1px 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.intro h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -241,14 +249,29 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 82px;
+  text-shadow: 1px 1px 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 400px;
   padding-bottom: 200px;
   text-align: center;
 }
+
+header {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* Features Section */
 #features {
   padding: 50px 0;
-  background: #f6f6f6;
+  background: #e6e6ec;
 }
 
 #features .cards {
@@ -258,13 +281,14 @@ header .intro-text {
 }
 
 #features .card {
-  background: rgb(49, 39, 199);
+  background: rgb(45, 36, 177);
   width: 100%;
   height: 40%;
   border-radius: 0.6em;
   margin: 1em;
   overflow: hidden;
   cursor: pointer;
+
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
     0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
   transition: all ease 200ms;
@@ -279,12 +303,23 @@ header .intro-text {
 
 #features .card-body {
   padding: 1.2em;
+  transform-style: preserve-3d;
 }
 
-#featurs .card h2 {
-  color: #222;
+#features .card h2 {
+  color: rgb(250, 244, 244);
   margin-top: -0.2em;
   line-height: 1.4;
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  transition: all ease-in 100ms;
+}
+
+#features .card h3 {
+  color: #fff;
+  /* margin-top: -0.2em;
+  line-height: 1.4; */
   font-size: 1.3em;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
@@ -306,6 +341,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background: #c9e0fa;
 }
 #about h3 {
   font-size: 22px;
@@ -353,19 +389,19 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: url(../img/services/background.jpg);
   color: #fff;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #000;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #000;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -385,10 +421,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #000;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #000;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -416,29 +452,25 @@ header .intro-text {
 
 /* This is Divyam's Code */
 
-#services .maincontainer1 {
-  background: rgb(49, 39, 199);
+#services .container {
+  width: 100%;
+  margin-left: -13px;
+}
+#services .card-figure {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 1em;
   width: 100%;
   height: 40%;
-  border-radius: 0.6em;
-  margin: 1em;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
-    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  border-radius: 10px;
   transform-style: preserve-3d;
   transition: all 0.8s ease;
 }
 
-#services .card-body {
-  position: relative;
-  top: 0;
-  left: 0;
+#services .card-image {
   width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  object-fit: cover;
 }
 
 #services .thefront {
@@ -452,7 +484,10 @@ header .intro-text {
   overflow: hidden;
   background: #28bbff;
   color: #000;
-  padding: 1.2em;
+}
+
+#services .container {
+  width: 100%;
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
@@ -466,13 +501,14 @@ header .intro-text {
   backface-visibility: hidden;
   overflow: hidden;
   padding: 1.2em;
-
+  background-color: rgb(45, 36, 177);
   color: #333;
   text-align: center;
   transform: rotateY(180deg);
+  padding: 1.2em;
 }
 
-.card-body:hover {
+.card-figure:hover {
   transform: rotateY(180deg);
   box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
     0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
@@ -481,17 +517,17 @@ header .intro-text {
 
 /* Upto this */
 
-/* #services .card:hover {
+#services .card:hover {
   transform: rotateY(180deg);
   box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
     0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
     0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
-} */
+}
 
-/* #services .card-body {
+#services .card-figure {
   padding: 1.2em;
   transform-style: preserve-3d;
-} */
+}
 
 #services .card h2 {
   color: #222;
@@ -506,6 +542,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  /* background: #7fb4f0; */
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -555,7 +592,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #d5e4f5;
 }
 #testimonials i {
   color: #e6e6e6;
