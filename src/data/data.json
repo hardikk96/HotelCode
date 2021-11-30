@@ -1,110 +1,131 @@
 {
-    "Header": {
+    "Header": 
+        {
 
         "title": "Welcome to Geneone.ai",
+        "tagline": "Our service is to care for you...",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
 
+    }
+,
+    
+    "ServicesCard": [
+        {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image":"img/services/one.jpg",
+        "height":"100%",
+        "width": "100%"
     },
-    "Services": [{
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image":"img/services/one.jpg",
-            "height":"100%",
-            "width": "100%"
-        },
-        {
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image": "img/services/two.jpg",
-            "height":"100%",
-            "width": "100%"
+    {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image": "img/services/two.jpg",
+        "height":"100%",
+        "width": "100%"
 
-        },
-        {
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image":"img/services/three.jpg",
-            "height":"100%",
-            "width": "100%"
-        },
-        {
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image":"img/services/four.jpg",
-            "height":"100%",
-            "width": "100%"
-
-        },
-        {
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image":"img/services/five.jpg",
-            "height":"100%",
-            "width":"10%"
-           },
-        {
-            "iconback": "fa fa-cart-arrow-down",
-            "nameback": "Consectetur adipiscing",
-            "textback": "This is the the back side of the card",
-            "image":"img/services/six.jpg",
-            "height":"100%",
-            "width": "100%"
-
-        }
-
-
-    ],
-    "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
     },
-    "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
+    {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image":"img/services/three.jpg",
+        "height":"100%",
+        "width": "100%"
+    },
+    {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image":"img/services/four.jpg",
+        "height":"100%",
+        "width": "100%"
+
+    },
+    {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image":"img/services/five.jpg",
+        "height":"100%",
+        "width":"10%"
+    },
+    {
+        "iconback": "fa fa-cart-arrow-down",
+        "nameback": "Consectetur adipiscing",
+        "textback": "This is the the back side of the card",
+        "image":"img/services/six.jpg",
+        "height":"100%",
+        "width": "100%"
+
+    }
+],
+
+"NewAbout": {
+    "paragraph": "At Geneone.ai, we started with a vision to build a platform where we can serve the community in the healthcare sector. We started with a team of engineers and designers across the globe who were passionate to work, to change things around them with the help of technology and serve the society.",
+    "Why": [
+        "Lorem ipsum dolor",
+        "Tempor incididunt",
+        "Lorem ipsum dolor",
+        "Incididunt ut labore"
     ],
+    "Why2": [
+        "Aliquip ex ea commodo",
+        "Lorem ipsum dolor",
+        "Exercitation ullamco",
+        "Lorem ipsum dolor"
+    ]
+},
+"AboutCard": {
+    "Why": [
+        "Lorem ipsum dolor",
+        "Tempor incididunt",
+        "Lorem ipsum dolor",
+        "Incididunt ut labore"
+    ],
+    "Why2": [
+        "Aliquip ex ea commodo",
+        "Lorem ipsum dolor",
+        "Exercitation ullamco",
+        "Lorem ipsum dolor"
+    ]
+},
+
+
+
+    "TestimonialsCard": [{
+        "img": "img/testimonials/01.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "John Doe"
+    },
+    {
+        "img": "img/testimonials/02.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "Johnathan Doe"
+    },
+    {
+        "img": "img/testimonials/03.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "John Doe"
+    },
+    {
+        "img": "img/testimonials/04.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "Johnathan Doe"
+    },
+    {
+        "img": "img/testimonials/05.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "John Doe"
+    },
+    {
+        "img": "img/testimonials/06.jpg",
+        "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+        "name": "Johnathan Doe"
+    }
+],
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "John Doe",
@@ -136,7 +157,9 @@
     "Logo": {
         "img": "img/team/01.jpg"
     },
-    "Features": [{
+
+    "FeatureCard": [
+        {
             "icon": "fa fa-comments-o",
             "title": "Product 1",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
